@@ -1,10 +1,24 @@
 body{
-    /* margin: 10px; */
-    padding: 10px;
-   
+    margin: 10px; 
+    padding: 30px;
 }
 
-img
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+    color: #383b39;
+    font-weight: 400;
+}
+
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #8dcca1;
+    font-weight: 400;
+}
+
+img {
+    float: center;
+}
 
 .wrapper { 
     display: flex;
@@ -15,12 +29,23 @@ img
 #grunt, #gulp, #git, #npm {
 
     border: 1px dashed grey;
-    width: auto;
+    padding: 20px;
     height: 300px;
-    text-align: center;
     margin: 10px;
  
     flex: 20%;
-    flex-direction: row;
+    
+    
     
 }
+
+/* @media screen and (max-width: 723px) {
+    #grunt, #gulp, #git, #npm {
+        flex:100%;}
+}
+@media screen and (min-width: 724px) {
+    #grunt, #gulp, #git, #npm {
+        flex:10%;}
+}
+
+ */
