@@ -38,19 +38,27 @@ h2{
 #grunt, #gulp, #git, #npm {
     width: auto;
     flex: 20%;   
+    margin: 10px;
+    /* border: 1px dashed black; */
 }
 
 .gruntpic, .gulppic, .githookpic, .npmpic{
     text-align: center;
+    padding-right:40px;
 }
 
-/* @media screen and (max-width: 723px) {
+ @media screen and (max-width: 723px) {
+    .wrapper{
+        width:100%;
+    }
     #grunt, #gulp, #git, #npm {
-        flex:100%;}
+        flex:100%;
+        align-items: center;
+        margin:30px;}
 }
-@media screen and (min-width: 724px) {
+/* @media screen and (min-width: 724px) {
     #grunt, #gulp, #git, #npm {
         flex:10%;}
 }
 
- */
+ */ */
