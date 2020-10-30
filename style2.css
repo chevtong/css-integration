@@ -106,12 +106,14 @@ hr{
     }
     .title, .number, .subtitle, .chart,.secondhalfsubtitle, .secondhalf-wrapper, .feet{
         flex:100%;
-        align-items: center;
-        margin:0px 5px;}
+        margin:0px 5px;
+    }
 
     .chart{
-        text-align: center;
-        padding-left:5px;
+       padding-left:5px;
     }   
     
+    .feet {
+        margin-top:1px;
+    }
 }
