@@ -14,12 +14,12 @@ hr{
 
 .wrapper {
     
-    width: 35%;
+    width: 30%;
     display: flex;
     flex-direction: column;
 }
 
-.title, .number, .subtitle, .chart, .secondhalf-wrapper, .footer {
+.title, .number, .subtitle, .chart,.secondhalfsubtitle, .secondhalf-wrapper, .footer {
     background-color: #468df1;
     color: #dae7fc;
     font-family: 'Noto Sans JP', sans-serif;
@@ -36,24 +36,58 @@ hr{
 .number{
     font-size: 50px;
     padding-top: 0;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
 }
 
 .subtitle{
     font-size: 12px;
+    color:#b6d1f9;
 }
 
 .chart{
     padding: 3px 25px;
+    text-align: center;
 }
 
+/* second half css start */
+
+.secondhalfsubtitle{
+    padding-bottom: 0px;
+    display: grid; 
+    grid-template-columns:  90% 10%;
+    grid-row: 40px;
+}
+
+.links-subtitle {
+    font-size: 12px;
+    text-align: left;
+    color:#b6d1f9;
+}
+
+
+/* links grid start */
 .secondhalf-wrapper {
     display: grid; 
     grid-template-columns:  90% 10%;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 30px 30px 30px 30px 30px;
     justify-content: space-between;
 }
 
+
+
 .links{
-    font-size: 13px;
+    font-size: 12px;
+    padding:0px;
+    margin:0px;
+}
+
+.links-number{
+    text-align: right;
+    font-size: 12px;
+}
+
+.footer {
+    text-align: right;
+    font-size: 12px;
+    padding-top: 30px;
 }
