@@ -3,40 +3,45 @@ body{
     padding: 30px;
 }
 
-p{
+span{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: small;
-    color: #383b39;
+    color: #737d75;
     font-weight: 400;
+}
+
+span.font-diff{
+    font-family: 'Fira Code', monospace;
+    font-weight: 400;
+}
+
+span.smallerfont {
+    font-size: smaller;
 }
 
 h2{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Fira Code', monospace;
     color: #8dcca1;
-    font-weight: 400;
+    font-weight: 300;
+    font-size: 18px;
+    vertical-align: middle;
 }
 
-img {
-    float: center;
-}
 
 .wrapper { 
+    width: 80%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
 }
 
 #grunt, #gulp, #git, #npm {
+    width: auto;
+    flex: 20%;   
+}
 
-    border: 1px dashed grey;
-    padding: 20px;
-    height: 300px;
-    margin: 10px;
- 
-    flex: 20%;
-    
-    
-    
+.gruntpic, .gulppic, .githookpic, .npmpic{
+    text-align: center;
 }
 
 /* @media screen and (max-width: 723px) {
