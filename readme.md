@@ -1,8 +1,5 @@
-## Hello World!
+Exercise for pixel perfect interfaces: 
 
-<br>
-
-Here are my interfaces: 
 
 [Interface 1](interface1.html)
 
