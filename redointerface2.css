@@ -1,4 +1,4 @@
-/* 
+
 
 .mockup{
     width:332px;
@@ -8,14 +8,14 @@
     position: absolute;
     top: 0;
     left: 0;
-    opacity: 0;
+    opacity: 0.6;
     z-index: 10;
     pointer-events: none;
-} */
+} 
 
 .widget{
     background-color: #468df1;
-    color: white;
+    color: black;
     font-family: sans-serif;
 
     width:280px;

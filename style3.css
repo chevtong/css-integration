@@ -1,0 +1,102 @@
+/* .mockup{
+    background-image: url('cardpic.png');
+    height:265px;
+    width:496px;
+
+    opacity: 0.3;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    
+    z-index: 10;
+    pointer-events: none;
+  } */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
+
+
+body{
+  margin:5px;
+}
+
+.wrapper{
+  /* background-color: brown; */
+  border: 1px solid #b3b3b3;
+  height:calc(265px - 6px);
+  max-width:calc(496px - 10px); 
+  margin: 1px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+  display: grid;
+  grid-template-columns: 202px 285px;
+  grid-template-rows:160px 69px;
+}
+
+.picture{
+  height:calc(265px - 6px);  
+  grid-row: span 2;
+  background-image: url(banana.jpg);
+  background-size: cover;
+}
+
+.text{
+  padding-top: 22px;
+  padding-left: 18px;
+}
+
+h2{
+  margin:0px;
+  font-size: 18px;
+  font-family: 'Noto Sans JP', sans-serif;
+  line-height: 1.4;
+  color:#343434;
+}
+
+p{
+  color: #b3b3b3;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 14px;
+  line-height: 1.4;
+  margin-top: 5px;
+}
+
+
+
+.nametag{ 
+  display: grid;
+  grid-template-columns: 50px 150px 50px;
+  padding-left: 18px;  
+  padding-top: 40px;
+}
+
+.face {
+  border-radius: 50%;
+  width: 40px;
+}
+
+h6{
+  margin: 3px;
+  color: #343434;
+}
+.status p{
+  font-size: 10px;
+  word-spacing: 5px;
+  padding-left: 2px;
+}
+
+.bookmark{ 
+  display: flex;
+  max-width: 18px;
+  padding-left: 5px;
+}
+
+img{
+  width:100%;
+ object-fit: contain;
+}
+
+
+
