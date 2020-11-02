@@ -38,7 +38,7 @@ body{
 .picture{
   height:calc(265px - 6px);  
   grid-row: span 2;
-  background-image: url(banana.jpg);
+  background-image: url(img/banana.jpg);
   background-size: cover;
 }
 
