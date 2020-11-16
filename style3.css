@@ -52,7 +52,7 @@ p{
 
 .wrapper{
   /* background-color: brown; */
-  border: 1px solid ²#e6e6e6;
+  border: 1px solid #e6e6e6;
   height:calc(265px - 6px);
   max-width:calc(496px - 10px); 
   margin: 1px;
