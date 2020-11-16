@@ -1,20 +1,4 @@
-/* .mockup{
-    background-image: url('cardpic.png');
-    height:265px;
-    width:496px;
-
-    opacity: 0.3;
-
-    position: absolute;
-    top: 0;
-    left: 0;
-    
-    
-    z-index: 10;
-    pointer-events: none;
-  } */
-
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
 
 
@@ -22,30 +6,14 @@ body{
   margin:5px;
 }
 
-.wrapper{
-  /* background-color: brown; */
-  border: 1px solid #b3b3b3;
-  height:calc(265px - 6px);
-  max-width:calc(496px - 10px); 
-  margin: 1px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  
-  display: grid;
-  grid-template-columns: 202px 285px;
-  grid-template-rows:160px 69px;
-}
-
-.picture{
-  height:calc(265px - 6px);  
-  grid-row: span 2;
-  background-image: url(img/banana.jpg);
-  background-size: cover;
-}
-
-.text{
-  padding-top: 22px;
-  padding-left: 18px;
-}
+/* .mockup{
+  width: 496px;
+  height: 265px;
+  background-image: url("interface3.png");
+  position: absolute;
+  z-index: 100;
+  opacity: 1;
+} */
 
 h2{
   margin:0px;
@@ -53,6 +21,14 @@ h2{
   font-family: 'Noto Sans JP', sans-serif;
   line-height: 1.4;
   color:#343434;
+}
+
+h6{
+  margin: 3px;
+  color: #727272;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 400;
+  padding-bottom: O;
 }
 
 p{
@@ -63,7 +39,40 @@ p{
   margin-top: 5px;
 }
 
+.status p{
+  font-size: 10px;
+  word-spacing: 5px;
+  padding-left: 2px;
+  margin-top: 0;
+}
 
+
+
+
+
+.wrapper{
+  /* background-color: brown; */
+  border: 1px solid ²#e6e6e6;
+  height:calc(265px - 6px);
+  max-width:calc(496px - 10px); 
+  margin: 1px;
+
+  display: grid;
+  grid-template-columns: 202px 285px;
+  grid-template-rows:160px 69px;
+}
+
+.picture{
+  height:calc(265px - 6px);  
+  grid-row: 1 / 3;
+  background-image: url("background3.png");
+  background-size: cover;
+}
+
+.text{
+  padding-top: 22px;
+  padding-left: 18px;
+}
 
 .nametag{ 
   display: grid;
@@ -77,26 +86,25 @@ p{
   width: 40px;
 }
 
-h6{
-  margin: 3px;
-  color: #343434;
-}
-.status p{
-  font-size: 10px;
-  word-spacing: 5px;
-  padding-left: 2px;
-}
-
 .bookmark{ 
-  display: flex;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 8px;
   max-width: 18px;
-  padding-left: 5px;
+  padding:10px;
+  margin: 2px;
+
 }
 
-img{
-  width:100%;
- object-fit: contain;
+.far, .fas{
+  font-size: 17px;
+  color: #b3b3b3;
 }
+
+
+
+
+
 
 
 
